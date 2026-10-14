@@ -1,0 +1,38 @@
+# Python cache files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environment
+.venv/
+venv/
+env/
+
+# Environment variables and secrets
+.env
+.env.*
+!.env.example
+
+# IDE and editor files
+.vscode/
+.idea/
+
+# Operating system files
+.DS_Store
+Thumbs.db
+Desktop.ini
+
+# Generated event data
+data/raw/
+data/processed/
+data/partitioned_events/
+
+# Generated data files (if stored elsewhere)
+*.jsonl
+*.csv
+*.parquet
+
+# Test and benchmark artifacts
+.pytest_cache/
+.coverage
+htmlcov/
